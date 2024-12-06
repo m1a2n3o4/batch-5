@@ -13,3 +13,12 @@ GIT:
 
 commands.
 
+$ git init // Intilze local repo.
+$ git add . // Add all files to que.
+$ git status // to check the current status.
+$ git commit -m 'type your message'  // to add any coments.
+$ git push  // push code to remote github.
+$ git clone // to get new repo/prject from gitgun to localmachone.
+$ git pull // Pull latest changes from same repo/project.
+
+
