@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Selectors</title>
+    <style>
+        /* Element(HTML element) Selectors (body, div, h1, a, table, img, .....nav, header) */
+        body {
+            background-color: bisque;
+        }
+
+        /* class selector (.) */
+        .primary-heading {
+            color: rgb(19, 184, 41);
+        }
+
+        /* ID selector (#) */
+        #welcome {
+            background-color: aqua;
+        }
+
+        /* Multiple selector (. or #) */
+
+        #welcome, #about {
+            background-color: rgb(180, 137, 137);
+        }
+
+        /* h1, h2, h3, h4, p {
+            color : red;
+        } */
+       
+        /* Nested selector (. or #) */
+
+        #welcome p {
+            color: white;
+        }
+
+        #about p {
+            color: blueviolet;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!--
+        CSS: Selectors
+    -->
+    <div id="welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, odio. Quibusdam, ut officiis, ea repudiandae non, quis error eius dolores optio veritatis ratione recusandae nesciunt laudantium autem qui esse. Architecto.</p>
+    </div>
+    <div id="about">
+        <h2 class="primary-heading">About</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione unde minus cupiditate. Libero nesciunt fugit obcaecati tempore quaerat reprehenderit, assumenda soluta sint veritatis distinctio dolore id dicta. Nulla, neque dolore!</p>
+    </div>
+</body>
+</html>

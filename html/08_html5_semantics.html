@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5, Semantics Tags</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .card {
+            border: 2px solid #ddd ;
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 20px;
+        }
+
+        #header {
+            background: #554984;
+            color: white;
+            padding: 10px;
+        }
+
+        #footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .text-center {
+           text-align: center;
+        }
+
+        #main {
+            float: left;
+            width: 70%;
+        }
+
+        #sidebar {
+            float: right;
+            width: 30%;
+        }
+
+        .clr {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Semantic Tags: <header>, <main> , <section>, <atricle>, <aside>, <nav>. <footer>...
+        Task:
+
+        Inspect Element;
+
+    -->
+    <!-- Header Section-->
+    <header id="header" class="card">
+        <img src="images/fe-logo.png" height="50">
+        <h1>My Website</h1>
+        <p class="text-center">Just another website.</p>
+        <a href="#sidebar">footer</a>
+    </header>
+
+    <!-- Main Section-->
+    <main id="main">
+      <!-- About Sction-->
+      <section id="welcome" class="card">
+        <h2>Welcome to our website</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, reprehenderit inventore consectetur voluptatum odit quam corporis dolor animi dicta. Ducimus qui eaque suscipit, vero facere quidem! Quibusdam perferendis beatae unde!</p>
+        <a href="#">Click here for more info!</a>
+      </section>
+      <!-- Blog Section -->
+      <section id="blog">
+        <h2>from our Blog</h2>
+        <!-- Article one-->
+        <article class="article">
+          <h3>Article one</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Vel explicabo qui, pariatur nobis impedit in quas necessitatibus 
+            delectus neque facilis ipsum repellat quos? 
+          </p>
+        </article>
+        <!-- Article two-->
+        <article class="article">
+            <h3>Article two</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Vel explicabo qui, pariatur nobis impedit in quas necessitatibus 
+              delectus neque facilis ipsum repellat quos? 
+            </p>
+          </article>
+      </section>
+    </main>
+
+    <!-- Side bar (right)-->
+    <aside id="sidebar" class="card"> 
+      <h3>Navigation</h3>
+      <!-- Navigation -->
+      <nav>
+        <ul id="main-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr>
+      <h3>Contact US</h3>
+      <ul>
+        <li>Address: D-mart, Ammeerpet, Hyderabad</li>
+        <li>Phone: (91) + 9999999999</li>
+        <li>Email: somtext@gmail.com</li>
+    </ul>
+    </aside>
+
+    <div class="clr"></div>
+
+    <!--Footer-->
+    <footer id="footer">
+        <img src="images/fe-logo.png" height="50">  <p class="text-center">Copy rights &copy; My website 2024</p>
+    </footer>
+
+</body>
+</html>

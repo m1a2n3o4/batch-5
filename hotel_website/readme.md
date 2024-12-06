@@ -1,0 +1,13 @@
+// We doing a sample website.
+concempt : we do showcase of your hotel buss...
+like - home hotel images, prices, descri, facilitoes, gallery, services, contact us, .....
+
+Teachnical part / Languses: HTML, CSS.
+
+Concepts: HTML - Basic layout, semantic tags, forms, floatings, navbars, algnemnets, ....
+
+Concepts: CSS: Bases resets, colors, baclgrounds, borders, flatimgs, inlines, buttons,...
+
+Multiple class to a DIV:
+
+CDN : Content Delivery Network.

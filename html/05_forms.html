@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- HTML Forms 
+        Forms :<form></form>
+        inpit box: 
+        type : number box, text box, radio butns.....
+     What is a form : to colect the data.
+     HTML forms are digital:
+      Firname:
+      last name:
+      email:
+      phone number :
+      dob:
+      Genader:
+      Parents name :
+      address:
+      Account details:
+
+      .....
+      ATTRIBUTES FOR INPUT.
+       TYPE.
+       name.
+       id.
+       required.
+
+      Form attributes:
+      action.  
+
+      http://127.0.0.1:5500/
+      savedata.java?
+      fname=Manohar+lotlapalli&
+      email=manumano111%40gmail.com&
+      pass=srgsdrg
+      &num=45634563456&
+      gender=on
+      &fav=on
+
+
+      http://127.0.0.1:5500/savedata.java?
+      fname=Manohar+lotlapalli&
+      email=manumano111%40gmail.com&
+      pass=manud
+      &address=ascasdv+asdv+asdva+sdv&
+      num=23462346&
+      gender=male&
+      fav=darling&
+      education=b.phram
+
+    
+    -->
+
+    <form action="savedata.java" method="post" name="myform" id="my-form">
+        <!-- Input type text-->
+        <label for="fname">First Name:</label>
+        <input type="text" value="" name="fname" id="fname" required placeholder="fill your name"> <br> <br> 
+
+        <!-- Email (HTML 5)-->
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email" required> <br> <br>
+
+        <!-- Password-->
+        <label for="password">Password</label>
+        <input type="password" value="" name="pass" id="pass"/> <br> <br>
+
+        <!-- Address (text area)-->
+        <label for="address">Address:</label>
+        <textarea name="address" rows="10" cols="50"></textarea> <br><br>
+
+        <!-- any number-->
+        <label for="password">Phone</label>
+        <input type="number" value="" name="num" id="num"/> <br> <br>
+
+        <!-- Gender (Radio button) - You can select only one option in the list-->
+        <label for="gender" >Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">Male <br>
+        <input type="radio" name="gender" id="female" value="female">Female <br>
+        <input type="radio" name="gender" id="trans" value="trans gender">Trans gender 
+          <br> <br>
+
+       <!-- choose your fav movies (checkbox) - You can select multiple options in the list -->
+       <label for="fav movies">Fav movies</label>
+       <input type="checkbox" name="fav" id="" value="salar"> Salar <br>
+       <input type="checkbox" name="fav" id="" value="darling"> Darling <br>
+       <input type="checkbox" name="fav" id="" value="bujji"> Bujju gaadu <br>
+       <input type="checkbox" name="fav" id="" value="baahu"> Bahubali <br>
+       <input type="checkbox" name="fav" id="" value="allari"> Allari ramudu <br><br>
+
+       <!-- Education (select - Dropdown box) - You can select only one option from the list-->
+       <label for="educ">Education</label>
+       <select name="education">
+         <option value="10th">10th class</option>
+         <option value="inter">Inter</option>
+         <option value="b.tech">B.tech</option>
+         <option value="inter">Inter</option> 
+         <option value="b.phram">B.pharm</option>
+         <option value="phd">PHD</option>
+       </select>
+       <br><br>
+
+       <input type="reset" value="resret">
+       
+
+           
+
+       
+      <input type="submit" value="create an account"/>
+        
+
+    </form>
+</body>
+</html>

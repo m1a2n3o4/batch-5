@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms stylings</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: #344a72;
+            color: white;
+            line-height: 1.8;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #container {
+            margin: 30px auto;
+            width: 400px;
+            padding: 20px;
+        }
+
+       .form-wrap {
+        background: #f4f4f4;
+        padding: 20px;
+        color: #333;
+       }
+
+       .form-wrap h1,
+       .form-wrap p {
+        text-align: center;
+       }
+
+       .form-wrap .form-group {
+        margin-top: 10px;
+       }
+
+       .form-wrap .form-group label {
+        display: block;
+       }
+
+       .form-wrap .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+       }
+
+       .form-wrap button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        background: #344a72;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+       }
+
+       .form-wrap button:hover {
+        background-color: aquamarine;
+       }
+
+       .form-wrap .bottom-text {
+        font-size: 12px;
+        margin-top: 10px;
+       }
+
+       footer {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+       }
+
+       footer a {
+        color: brown;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>Sign Up!</h1>
+            <p>sign up to news letters from portal.</p>
+            <form action="savedata.java" method="post">
+                <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname" value=""/>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" id="lname" value="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" value="">
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" value="">
+                </div>
+                <div class="form-group">
+                    <label for="cpassword">confirm password</label>
+                    <input type="password" name="cpassword" id="cpassword" value="">
+                </div>
+                <button type="submit">Sign Up!</button>
+                <p class="bottom-text">By clicking the sign up button, you agree to our <a>terms and condistions</a> and  <a>privacy policy.</a></p>
+            </form>
+            <footer>
+                <p>Alredy account ? <a>Login here.</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

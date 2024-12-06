@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS : Box-model.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box {
+            border: 2px solid red;
+            height: auto;
+            width: 200px;
+
+            
+            padding: 20px;
+
+            /* Padding per side */
+            padding-top: 10px;
+            padding-left: 20px;
+            padding-right: 10px;
+            padding-bottom: 20px; 
+
+            /* Padding Shorthand = top, right, bottom, left */
+            padding: 10px 20px 30px 40px;
+            
+            /* Padding Shorthand = top/bottom left/right */
+            padding: 25px 35px;
+
+            /* Margin on all sides */
+            margin: 10px 20px 30px 40px;
+
+            /* Margin per side */
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 30px;
+            margin-bottom: 20px; 
+
+            /* Margin Shorthand = top/bottom left/right */
+            margin: 25px 35px;
+        }
+
+        .box h3 {
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!---
+        Box-model >
+        1) Padding. : IT will create empty space inside the box/element.
+        2) Margins. : It will create empty space outside the box/element.
+        3) Border.  : 
+    -->
+    <div class="box">
+        <h3>Box one</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, id deleniti aspernatur maiores harum, eligendi qui iure possimus tempora quia magni cupiditate earum quod aut consequatur rerum odit, suscipit rem! </p>
+     <p>Test</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eius numquam quisquam debitis voluptas quae voluptate doloribus illo non aliquid quos odio iusto itaque, iure sed quo optio porro dignissimos.</p>
+    </div>
+</body>
+</html>
