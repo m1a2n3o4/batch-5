@@ -139,7 +139,19 @@ const allmycars = [
 
 ];
 
+
+const cars = {
+    modal : 'Sijiki 1234',
+    colors : ['red', 'blue', {
+        abcd : '123456',
+        xys : [1,2, { lmn : 'Hey you!'}, ['puspa2', { hero : 'Allu Arjun'}]]
+
+    }]
+}
+
+
 console.log(allmycars);
+console.log(cars.colors[2].xys[3][1].hero);
 
 
 

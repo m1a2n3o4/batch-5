@@ -1,0 +1,954 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "pageOffset": {
+            "nextOffset": "CJpqEJtYKIC4tr+02eT9LjDIDjgE",
+            "widgetOffset": {
+                "restaurantCountWidget": "",
+                "inlineFacetFilter": "",
+                "collectionV5RestaurantListWidget_SimRestoRelevance_food": "8",
+                "collectionV5MastheadWidget": ""
+            }
+        },
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+                        "collectionId": "83639",
+                        "title": "Biryani",
+                        "description": "Taste these delectable classics, delectable biryanis to make your day.",
+                        "imageId": "COLLECTIONS/IMAGES/MERCH/2024/7/2/3aaf1e21-0d4f-4280-9ed9-43ac0d8125c3_pic",
+                        "aspectRatio": "3.44",
+                        "cta": {
+                            "link": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani,biryani,ads_pc_biryani",
+                            "type": "collectionv2"
+                        },
+                        "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+                        "count": "208 restaurants"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                        "sortConfigs": [
+                            {
+                                "key": "relevance",
+                                "title": "Relevance (Default)",
+                                "selected": true,
+                                "defaultSelection": true
+                            },
+                            {
+                                "key": "deliveryTimeAsc",
+                                "title": "Delivery Time"
+                            },
+                            {
+                                "key": "modelBasedRatingDesc",
+                                "title": "Rating"
+                            },
+                            {
+                                "key": "costForTwoAsc",
+                                "title": "Cost: Low to High"
+                            },
+                            {
+                                "key": "costForTwoDesc",
+                                "title": "Cost: High to Low"
+                            }
+                        ],
+                        "restaurantCount": 208,
+                        "facetList": [
+                            {
+                                "label": "10 Mins Delivery",
+                                "id": "isRestaurantBolt",
+                                "selection": "SELECT_TYPE_SINGLESELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "10 Mins Delivery",
+                                        "id": "isRestaurantBoltfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_FLATTENED",
+                                "subLabel": "Filterby"
+                            },
+                            {
+                                "label": "Veg/Non-Veg",
+                                "id": "isVeg",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Non Veg",
+                                        "id": "isVegfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Pure Veg",
+                                        "id": "isVegfacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Ratings",
+                                "id": "rating",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Ratings",
+                                        "id": "ratingfacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Ratings 4.0+",
+                                        "id": "ratingfacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Ratings 4.5+",
+                                        "id": "ratingfacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Delivery Time",
+                                "id": "deliveryTime",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Less than 30 mins",
+                                        "id": "deliveryTimefacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Less than 45 mins",
+                                        "id": "deliveryTimefacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            },
+                            {
+                                "label": "Cost For Two",
+                                "id": "costForTwo",
+                                "selection": "SELECT_TYPE_MULTISELECT",
+                                "facetInfo": [
+                                    {
+                                        "label": "Less than Rs. 300",
+                                        "id": "costForTwofacetquery0",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Rs.300 - Rs.600",
+                                        "id": "costForTwofacetquery1",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    },
+                                    {
+                                        "label": "Greater than Rs. 600",
+                                        "id": "costForTwofacetquery2",
+                                        "analytics": {},
+                                        "openFilter": true
+                                    }
+                                ],
+                                "viewType": "VIEW_TYPE_HALF_CARD",
+                                "subLabel": "Filterby",
+                                "openFilter": true
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "widgetPadding": {
+                                "left": 16,
+                                "right": 16
+                            },
+                            "scrollBar": {},
+                            "widgetTheme": {
+                                "defaultMode": {
+                                    "backgroundColour": "#FFFFFF",
+                                    "theme": "THEME_TYPE_LIGHT"
+                                },
+                                "darkMode": {
+                                    "backgroundColour": "#1B3028",
+                                    "theme": "THEME_TYPE_DARK"
+                                }
+                            }
+                        },
+                        "id": "restaurantCountWidget",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                                "text": "208 Restaurants to explore",
+                                "headerStyling": {
+                                    "textSize": 15,
+                                    "textColor": "text_color_highest_emphasis",
+                                    "textFontName": "FONT_NAME_HEADER_H5",
+                                    "maxLines": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "40380",
+                            "name": "New Santosh Dhaba",
+                            "cloudinaryImageId": "adadvxl4vh2d6y51zhf4",
+                            "locality": "Pan bazar road",
+                            "areaName": "Rani Gunj",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Chinese"
+                            ],
+                            "avgRating": 4.2,
+                            "veg": true,
+                            "parentId": "4516",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "8.5K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=22583954~p=0~adgrpid=22583954#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=40380~eid=b46c322f-b218-475b-a7dc-55ed3fcda302~srvts=1734098125566~collid=83639",
+                            "sla": {
+                                "deliveryTime": 50,
+                                "lastMileTravel": 6.1,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "45-50 mins",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-14 00:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {},
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "pureveg",
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "22583954"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=40380&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "805434",
+                            "name": "Mehfil",
+                            "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/30/3a9fa3c5-98fe-4715-a867-5e042e764c86_bc2bd111-df8c-4d21-bb2a-2a11430ba5b3.jpeg",
+                            "locality": "Mahatma Gandhi Nagar",
+                            "areaName": "Ameerpet",
+                            "costForTwo": "₹300 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "Kebabs",
+                                "Tandoor"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "637",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "23K+",
+                            "sla": {
+                                "deliveryTime": 17,
+                                "lastMileTravel": 1.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "15-20 mins",
+                                "lastMileTravelString": "1.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-14 02:00:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                                        "description": "bolt!"
+                                    },
+                                    {
+                                        "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                        "description": "Delivery!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textExtendedBadges": {},
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                                                    "description": "bolt!"
+                                                }
+                                            },
+                                            {
+                                                "attributes": {
+                                                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                                    "description": "Delivery!"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "10% OFF",
+                                "subHeader": "UPTO ₹40",
+                                "logoCtx": {
+                                    "text": "BENEFITS"
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=805434&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "9299",
+                            "name": "New Singh's -Veg Restaurant",
+                            "cloudinaryImageId": "tkt7fgm1uetjpkfaxslh",
+                            "locality": "MG Road",
+                            "areaName": "MG Road",
+                            "costForTwo": "₹350 for two",
+                            "cuisines": [
+                                "Chinese"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "19657",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "11K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=22583812~p=1~adgrpid=22583812#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=9299~eid=e3857b0b-23e0-4610-8cb4-3ed1a55a404d~srvts=1734098125566~collid=83639",
+                            "sla": {
+                                "deliveryTime": 51,
+                                "lastMileTravel": 6.1,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "50-55 mins",
+                                "lastMileTravelString": "6.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-13 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "pureveg",
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "₹50 OFF",
+                                "subHeader": "ABOVE ₹249",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                    "text": "BENEFITS"
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.2",
+                                    "ratingCount": "1.5K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "22583812"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=9299&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "25251",
+                            "name": "Meridian Restaurant",
+                            "cloudinaryImageId": "hqilwii7tokkileglhq4",
+                            "locality": "Panjagutta",
+                            "areaName": "Panjagutta",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "Kebabs"
+                            ],
+                            "avgRating": 4.4,
+                            "parentId": "19276",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "244K+",
+                            "sla": {
+                                "deliveryTime": 26,
+                                "lastMileTravel": 2.3,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25-30 mins",
+                                "lastMileTravelString": "2.3 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-13 23:45:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "aggregatedDiscountInfoV2": {},
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "imageBased": {},
+                                    "textExtendedBadges": {},
+                                    "textBased": {}
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "3.9",
+                                    "ratingCount": "23K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=25251&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "3185",
+                            "name": "Country Dine (Unit of Country Oven)",
+                            "cloudinaryImageId": "17897faf6f3c8f424db7209fabfaea5e",
+                            "locality": "Ameerpet",
+                            "areaName": "Ameerpet",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Chinese",
+                                "Indian",
+                                "South Indian",
+                                "Andhra",
+                                "Asian",
+                                "Snacks"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "65370",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "8.7K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=22583754~p=2~adgrpid=22583754#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=3185~eid=1de488be-483c-427a-80e8-63ccb0394cdf~srvts=1734098125566~collid=83639",
+                            "sla": {
+                                "deliveryTime": 25,
+                                "lastMileTravel": 0.8,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25-30 mins",
+                                "lastMileTravelString": "0.8 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-13 22:30:00",
+                                "opened": true
+                            },
+                            "badges": {},
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {},
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "₹125 OFF",
+                                "subHeader": "ABOVE ₹549",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                    "text": "BENEFITS"
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "1.7K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "22583754"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=3185&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "172111",
+                            "name": "Shadab Go",
+                            "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/22/a09f41f4-d37d-48af-a140-13255ac09561_0ef4f67d-6b2a-4773-ad20-83a804292e4b.jpg",
+                            "locality": "SR Nagar",
+                            "areaName": "S R Nagar",
+                            "costForTwo": "₹500 for two",
+                            "cuisines": [
+                                "Biryani",
+                                "Chinese",
+                                "Haleem"
+                            ],
+                            "avgRating": 4.2,
+                            "parentId": "8347",
+                            "avgRatingString": "4.2",
+                            "totalRatingsString": "58K+",
+                            "sla": {
+                                "deliveryTime": 17,
+                                "lastMileTravel": 1.5,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "15-20 mins",
+                                "lastMileTravelString": "1.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-13 23:59:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "bolt/Bolt%20Listing%20badge@3x.png",
+                                        "description": "bolt!"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textExtendedBadges": {},
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "bolt!",
+                                                    "imageId": "bolt/Bolt%20Listing%20badge@3x.png"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "60% OFF",
+                                "subHeader": "UPTO ₹120",
+                                "logoCtx": {
+                                    "text": "BENEFITS"
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "3.9",
+                                    "ratingCount": "4.3K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=172111&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "45974",
+                            "name": "Maa Sant Dhaba",
+                            "cloudinaryImageId": "bnsetii2ltp6hlyjrfzm",
+                            "locality": "Khairatabad",
+                            "areaName": "Banjara Hills",
+                            "costForTwo": "₹400 for two",
+                            "cuisines": [
+                                "North Indian",
+                                "Chinese"
+                            ],
+                            "avgRating": 4.3,
+                            "parentId": "535981",
+                            "avgRatingString": "4.3",
+                            "totalRatingsString": "5.2K+",
+                            "promoted": true,
+                            "adTrackingId": "cid=22587617~p=4~adgrpid=22587617#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=45974~eid=58bf5707-74c7-4925-9b45-e8e27ad953d1~srvts=1734098125566~collid=83639",
+                            "sla": {
+                                "deliveryTime": 30,
+                                "lastMileTravel": 2.6,
+                                "serviceability": "SERVICEABLE",
+                                "slaString": "25-30 mins",
+                                "lastMileTravelString": "2.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-12-13 23:30:00",
+                                "opened": true
+                            },
+                            "badges": {
+                                "imageBadges": [
+                                    {
+                                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                        "description": "pureveg"
+                                    }
+                                ]
+                            },
+                            "isOpen": true,
+                            "type": "F",
+                            "badgesV2": {
+                                "entityBadges": {
+                                    "textBased": {},
+                                    "imageBased": {
+                                        "badgeObject": [
+                                            {
+                                                "attributes": {
+                                                    "description": "pureveg",
+                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "textExtendedBadges": {}
+                                }
+                            },
+                            "aggregatedDiscountInfoV3": {
+                                "header": "₹175 OFF",
+                                "subHeader": "ABOVE ₹449",
+                                "discountTag": "FLAT DEAL",
+                                "logoCtx": {
+                                    "text": "BENEFITS"
+                                }
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "differentiatedUi": {
+                                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                "differentiatedUiMediaDetails": {
+                                    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                    "lottie": {},
+                                    "video": {}
+                                }
+                            },
+                            "reviewsSummary": {},
+                            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                            "restaurantOfferPresentationInfo": {},
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "4.0",
+                                    "ratingCount": "2.6K+"
+                                },
+                                "source": "GOOGLE",
+                                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "campaignId": "22587617"
+                        },
+                        "analytics": {},
+                        "cta": {
+                            "link": "swiggy://menu?restaurant_id=45974&source=collection&query=Biryani",
+                            "text": "RESTAURANT_MENU",
+                            "type": "DEEPLINK"
+                        },
+                        "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+                        "sectionId": "MENU_RETURN_FOOD"
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "nextFetch": 3
+    },
+    "tid": "0b575f1b-28e1-4b6d-9d65-fe7b2755587e",
+    "sid": "hrv4b3bd-20ff-4c8e-8389-3214cd8fc976",
+    "deviceId": "1d2c8d10-f6c0-3666-dc2d-12a8fa631362",
+    "csrfToken": "oNEQj0YxDlSZ-BcYTHg3ZC0vi116mpq33AbhJnj0"
+}
