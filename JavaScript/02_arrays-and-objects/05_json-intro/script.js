@@ -4,7 +4,8 @@
 const post = {
     id: 1,
     title : 'News 1',
-    description : 'this is test description'
+    description : 'this is test description',
+    notes : 'hello test 123456'
 };
 
 const all_posts = [
