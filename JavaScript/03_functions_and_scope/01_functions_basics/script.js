@@ -2,11 +2,14 @@
 
 // Define a function - Syntax.
 // The main pupose is - Reusable methods
-
+// let x = 100;
 function fun_name() 
 {
    // We will erite JS Code.
+  // let y = 200;
 }
+
+
 
 console.log('Hello this is sample test');
 console.log('Hello 3');
@@ -29,6 +32,8 @@ hello_function(); // Invoking the function.
 hello_world();
 hello_world();
 hello_function();
+
+let x = 100;
 
 function data_updattoaray() {
     const arry = [28, 38, 44, 29,109];
