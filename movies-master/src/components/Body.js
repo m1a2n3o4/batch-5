@@ -1,10 +1,10 @@
 import React from 'react';
 import Login from './Login';
+import Allmovies from './Allmovies';
 
 const Body = () => {
     return (
         <div>
-            <p>Body component</p>
             <Login/>
         </div>
     );

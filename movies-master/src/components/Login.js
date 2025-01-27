@@ -1,8 +1,11 @@
 import React from 'react';
 import { useState, useRef } from 'react';
 import { checkValidData } from '../utils/validate';
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPhoneNumber } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth } from '../utils/firebase';
+import { useDispatch } from 'react-redux';
+import { adduser } from '../utils/userSlice';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
     // useState Hook
@@ -11,6 +14,9 @@ const Login = () => {
     const [successMessage, setsuccessMessage] = useState(null);
     const email = useRef(null);
     const password = useRef(null);
+    const fullname = useRef(null);
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
    // const auth = getAuth();
    // console.log(email);
 
@@ -37,10 +43,19 @@ const Login = () => {
             .then((userCredential) => {
                 // Signed in 
                 const user = userCredential.user;
-               // console.log(user);
-               setsuccessMessage('You are loggin successfylly!');
-               // we will redirect to HOME page.
-                // ...
+                console.log(user);
+                navigate("/Allmovies");
+                
+                console.log(user);
+              // setsuccessMessage('You are loggin successfylly!');
+
+              // we will store user object into userSlice.
+            //  dispatch(adduser(user));
+
+              // we will navigate user
+             // navigate("/allmovies");
+              
+
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -54,9 +69,20 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up 
           const user = userCredential.user;
-          setsuccessMessage('You are registred successfully!');
-          email.current.value = '';
-          password.current.value = '';
+          console.log(user);
+          // Update Profile data - will API Here.
+          updateProfile(auth.currentUser,{
+            displayName: fullname.current.value, 
+            photoURL: "https://png.pngtree.com/png-clipart/20231019/original/pngtree-user-profile-avatar-png-image_13369988.png"
+          } ).then( () => {
+            setsuccessMessage('You are registred successfully!');
+            email.current.value = '';
+            password.current.value = '';
+           dispatch(adduser(user));
+          }) .catch( (error) => {
+              console.log(error);
+          })
+          
           // ...
         })
         .catch((error) => {
@@ -80,7 +106,7 @@ const Login = () => {
                     <h2>{isSignInForm ? 'Sign IN' : 'Sign Up'}</h2>
                     { !isSignInForm && (
                         <div className='mb-3'>
-                        <input type='text'  name='fullname' className='form-control' placeholder='Enter fullname'/>
+                        <input type='text'  name='fullname' ref={fullname} className='form-control' placeholder='Enter fullname'/>
                     </div>
                     )}
                      <div className='mb-3'>

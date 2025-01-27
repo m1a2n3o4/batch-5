@@ -90,9 +90,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   -- Show notifications.
       - Error Notification.
       - Success Notifications...
- -- Routing/redirect user to homepage if sign-in sucess.
- 
+  -- Routing/redirect user to homepage if sign-in sucess.
+      -- Installing routing (npm i react-router-dom).
+      -- Create router configuration.
+         ex : "/" : Login Component.
+         es : "/allmovies" : Allmovies component.
+         ex : "/"cart" : Cart component.
+      -- provide the router confignternal linking the pages. to Application. 
+      -- 
+  --  state varibale/data
+      -- we discussed. .
+  -- Important topics : Redux Store.
+     -- Will have a one Redux Store for Application.
+     -- Will create a Store.
+     --  after will provide that store to Application.
+            1) Redux Store.
+            2) Slice.
+            3) Provide the Store to application.
+            4) Dispatch a Action.
+            5) Reducer function.
+            6) Subscribe to store using Selectors.
+    -- when clik on button -> Dispatch Action -> Reducer Function -> Modify/add/delete the Slice Data.
+    -- To keep update the component - we subscire to store using Selectors.        
+    -- install store : npm i @reduxjs/toolkit
+                       npm i react-redux.
+    -- We crate a store -> Provide to app.
+    -- We will call Reducer function using Dispatching Action. (We will save user object into UserSlice.).
+    -- We will read the userSlice data by using Selectors(emai, username, profie photo).
+    -- Active event listner.
+       -- useEffect Hook(something you want call only onetime when compmnent render/call)
+    --- SignUP and Workflow--
+        1) SignUP -> Fullname, email, password. (SignUp Sucess).
+        2) Login -> Navigate to 'Allmovies' component and will save current user data on "UserSlice" store.
+        3) AllMovies compoent is allowed for Autheticated/Login user
+            -- if  We directly come to Allmivies - we will not not give the acees - we take back to Login Page.
+        4) SignOut methods.
+           -- We will remove the user from the store. using removeUser function.
+           -- Will actull do Signout API.
+        5) Add Active event listner : onAuthStateChanged - will keep check user is logged in or not.
+    -- Conditinal Rendering.
+        -- Accessing any component with a passed condition.
 
+
+  
  2) Concepets. 
     -- React - Hooks....
        -useState Hook.
@@ -104,3 +144,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
    -- React Routings..
       -- npm install react-router-dom.
       -- config the routers.
+
+
+
+
+
+
