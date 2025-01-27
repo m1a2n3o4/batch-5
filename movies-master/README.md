@@ -130,6 +130,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         5) Add Active event listner : onAuthStateChanged - will keep check user is logged in or not.
     -- Conditinal Rendering.
         -- Accessing any component with a passed condition.
+    -- TO Dispalu=y movies on Allmovies component we sung TMDB API.
+       -- We made nowPlayong API in AllMovies component.
+       -- We need to store the data om Store.  
+             -- Create new MoviesSLice.
+             -- Update main store with movieSlice.
+             -- Update moviesSlice data in Allmovies components.
+
+    -- Debugging Application.
+        -- You can check Step by Steps how code is excuting in background.
+        -- You can degugg code/page on "SOURCE" Tab
+        -- we will use - 
+    -- Displaying Movis on AllComponent page.
+       {
+                /*
+                 movies-container
+                   -- Background Video.
+                   -- Movies titlr.
+                   -- Movie Description.
+                   -- Play Button
+                 Listiling Movies Catagories.
+                */
+            }
 
 
   
