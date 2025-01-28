@@ -66,3 +66,39 @@
   padding: 10px;
   border-radius: 10px;
 }
+
+.hero {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  overflow: hidden;
+  color: white;
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 3;
+  text-align: left;
+  padding: 10px;
+
+}
+
+.hero iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.hero-overlay {
+  position: absolute;
+  background: #444141;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

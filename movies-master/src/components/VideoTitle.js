@@ -3,7 +3,7 @@ import React from "react";
 const VideoTitle = ({title, description}) => {
     
     return(
-        <div>
+        <div className="hero-content">
             <h1>{title}</h1>
             <p>{description}</p>
             <div className="play-button">
