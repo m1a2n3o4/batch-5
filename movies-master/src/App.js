@@ -4,8 +4,6 @@ import Body from './components/Body';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Allmovies from './components/Allmovies';
-import Abcd from './components/Abcd';
-import Tvshows from './components/Tvshows';
 import { useEffect } from 'react';
 import { auth } from "./utils/firebase";
 import { useDispatch } from 'react-redux';
@@ -23,14 +21,6 @@ function App() {
     {
       path: "/allmovies",
       element : <Allmovies/>
-    },
-    {
-      path: "/abcd",
-      element : <Abcd/>
-    },
-    {
-      path: "/tvshows",
-      element : <Tvshows/>
     }
   ]);
 

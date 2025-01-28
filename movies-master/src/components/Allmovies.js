@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { TMDB_API_OPTIONS } from "../utils/tmbdapi";
 import { addNowPlayingMovies } from "../utils/moviesSlice";
 import { useDispatch } from "react-redux";
-import  MoviesContainer from "./MoviesContainer";
+import MainContainer from "./MainContainer";
 const Allmovies = () => {
     const dispatch = useDispatch();
     const getNowPlayingMovies = async() =>{
@@ -22,7 +22,7 @@ const Allmovies = () => {
     return (
         <div className="all-movies">
             <Header/>
-            <MoviesContainer/>
+            <MainContainer/>
         </div>
     );
 };
