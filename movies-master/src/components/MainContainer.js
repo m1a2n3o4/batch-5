@@ -2,6 +2,7 @@ import React from "react";
 import VideoBackground from "./VideoBackground";
 import VideoTitle from "./VideoTitle";
 import { useSelector } from "react-redux";
+import SecondaryContainer from "./SecondaryContainer";
 
 const MainContainer = () => {
 
@@ -20,6 +21,7 @@ const MainContainer = () => {
             <div className="hero-overlay"></div>
             <VideoTitle title={original_title} description = {overview}/>
             </section>
+            <SecondaryContainer/>
             
         </div>
     );

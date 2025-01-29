@@ -41,7 +41,7 @@ const Header = () => {
       },[]);
     return (
         <div>
-            <nav className="navbar navbar-expand-sm bg-danger navbar-dark">
+            <nav className="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
               <div className="container-fluid">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -57,9 +57,11 @@ const Header = () => {
                     <li className="nav-item">
                         <Link to="/tvshows" className="nav-link">Tv shows</Link>
                     </li>
+                    <li className='nav-item'>
+                    <a className='nav-link'>{user?.displayName}</a>
+                    </li>
                    <li className='nav-item'>
-                        <a className='nav-link'>{user?.displayName}</a>
-                        <img src={user?.photoURL} height={100}/>
+                        <img src={user?.photoURL} height={50}/>
                         <button  onClick={handelSignout} className='btn btn-warning'>SignOut</button>
                    </li>
                 </ul>

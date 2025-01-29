@@ -7,3 +7,5 @@ export const TMDB_API_OPTIONS = {
     // user : manumano111
     // pass : ..
   };
+
+  export const IMG_URL = "https://image.tmdb.org/t/p/w200/";
